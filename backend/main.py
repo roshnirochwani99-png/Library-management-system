@@ -17,7 +17,8 @@ app = FastAPI()
 
 # CORS so Next.js (http://localhost:3000) can call this API
 origins = [
-    "http://localhost:3000",  # your frontend dev URL
+    "http://localhost:3000",
+    "https://roshni-library-management-system.vercel.app",  # your frontend dev URL
 ]
 
 app.add_middleware(
